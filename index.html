@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Module 7.4</title>
+			<meta name="description" content="CSS">
+            <meta name="author" content="Gerald D. Escabarte ; 9-Sodium">
+            <meta name="keywords" content="HTML, CSS">
+    	</head>
+		<body>
+			<h1>Advanced CSS</h1>
+			<h2>What's New in CSS3?</h2>
+			<div>
+				<p>This is paragraph 1.</p>
+				<p>This is paragraph 2.</p>
+				<p>This is paragraph 3.</p>
+				<p>This is paragraph 4.</p>
+				<p>This is paragraph 5.</p>
+			</div>
+		</body>
+      	<style>
+			h1{
+				background-color: lightblue;
+                transform: skew(-30deg);
+                text-align: center;
+                font-size: 70px;
+                margin: 0px;
+            }
+            h2{
+                border-radius: 10px 20px 10px 20px;
+                border: 1px solid black;
+                background-color: pink;
+                padding: 10px;
+                width: 250px;
+            }
+          	P:nth-last-child(3){
+                transform: rotateX(180deg);
+          		color: red;
+            }
+            p::selection{
+				color:red;
+                background-color:yellow;
+            }
+		</style>
+</html>
